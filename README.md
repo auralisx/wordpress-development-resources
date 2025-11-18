@@ -1,4 +1,5 @@
 # WordPress Block & Core Resources
+
 A concise, developer-focused index of the best WordPress resources available today.
 Built for developers working in the modern block-based WordPress ecosystem.
 
@@ -15,13 +16,13 @@ Built for developers working in the modern block-based WordPress ecosystem.
      - [Handbook](#handbooks)
      - [API Reference](#api-reference)
 
-2. [Community & Unofficial Resources](#community-&-unofficial-resources)
+2. [Community & Unofficial Resources](#community--unofficial-resources)
 
 3. [Courses](#courses)
 
-4. [Development Tools & Environments](#development-tools-&-environments)
+4. [Development Tools & Environments](#development-tools--environments)
 
-5. [Community Articles & Blogs](#community-articles-&-blogs)
+5. [Community Articles & Blogs](#community-articles--blogs)
 
 ---
 
