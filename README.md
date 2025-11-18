@@ -1,99 +1,119 @@
-<h1 align="center">
-  <samp style="color: #ffffff; background-color: #ffbc00;">WordPress Resources</samp>
-</h1>
-
-A concise, developer focused list of WordPress resources. 
-
-TABLE OF CONTENTS
------------------
-
 # WordPress Block & Core Resources
+A concise, developer-focused index of the best WordPress resources available today.
+Built for developers working in the modern block-based WordPress ecosystem.
 
 [![Status: Active](https://img.shields.io/badge/status-active-brightgreen)](.)
 [![Focus: Core & Blocks](https://img.shields.io/badge/focus-core%20%26%20blocks-blue)](.)
+[![Type: Developer Resources](https://img.shields.io/badge/type-developer%20resources-lightgrey)](.)
+
+# TABLE OF CONTENTS
+--------------------
+
+1. [Official Resources](#official-resources)
+
+2. [Developer Docs](#developer-docs)
+     - [Handbook](#handbooks)
+     - [API Reference](#api-reference)
+
+2. [Community & Unofficial Resources](#community-&-unofficial-resources)
+
+3. [Courses](#courses)
+
+4. [Development Tools & Environments](#development-tools-&-environments)
+
+5. [Community Articles & Blogs](#community-articles-&-blogs)
 
 ---
 
-## Priority 1: Essential References
+# Official Resources
 
-These are the non-negotiable core resources every WordPress developer should know.
+[![Official](https://img.shields.io/badge/category-official-blue)](.)
 
-* Developer Resources (All Core APIs): [https://developer.wordpress.org/](https://developer.wordpress.org/)
-* Block Editor Handbook: [https://developer.wordpress.org/block-editor/](https://developer.wordpress.org/block-editor/)
-* Block Theme Documentation: [https://developer.wordpress.org/themes/block-themes/](https://developer.wordpress.org/themes/block-themes/)
-* theme.json Reference: [https://developer.wordpress.org/themes/global-settings-and-styles/](https://developer.wordpress.org/themes/global-settings-and-styles/)
+Primary sources maintained by the WordPress project: documentation, developer handbooks, community learning, and contribution guides.
 
----
+- [WordPress News](https://wordpress.org/news/): Latest news and updates about WordPress core and blocks. Core announcements, feature updates, release cycles.
+- [WordPress Documentation](https://wordpress.org/documentation/): User-facing platform documentation. Learn how to use WordPress.
+- [WordPress Learning](https://wordpress.org/learn/): Learning pathways to build skills progressively from beginner to advanced. Suitable for designers and beginners who are just starting out with WordPress looking for learning platform with structured courses. Guided learning paths for all levels.
+- [WordPress Forums](https://wordpress.org/support/forums): Community to ask and discuss things about WordPress. Community Q&A.
+- [WordPress TV](https://wordpress.tv/): Videos about WordPress from WordCamps, events, developers, mentorship programs etc.
+- [Developer Portal](https://developer.wordpress.org/): Documentation, API references, developer blogs for developers. Learn how to develop with WordPress.
+- [Developer Blogs](https://developer.wordpress.org/news/): Catch up on the latest news from the Developer Blog.
 
-## Priority 2: Block Development
+## Contribution Guides
 
-Authoritative block markup and block API references.
-
-* WPBlockDocs (Block Markup): [https://wpblockdocs.com](https://wpblockdocs.com)
-* Block Properties Reference: [https://www.wpblockdocs.com/properties](https://www.wpblockdocs.com/properties)
-* Block Markup Validator: [https://wpblockdocs.com/validator](https://wpblockdocs.com/validator)
-* Block Metadata / block.json Spec: [https://developer.wordpress.org/block-editor/reference-guides/block-api/block-metadata/](https://developer.wordpress.org/block-editor/reference-guides/block-api/block-metadata/)
-* Block Components Reference: [https://developer.wordpress.org/block-editor/reference-guides/components/](https://developer.wordpress.org/block-editor/reference-guides/components/)
-* Full Site Editing Block Reference: [https://fullsiteediting.com/blocks/](https://fullsiteediting.com/blocks/)
-* Design Resources (Figma): [https://developer.wordpress.org/block-editor/explanations/user-interface/design-resources/](https://developer.wordpress.org/block-editor/explanations/user-interface/design-resources/)
+- [Documentation Contributor Handbook](https://make.wordpress.org/docs/handbook/): Processes for improving documentation.
+- [Contribute to WordPress](https://make.wordpress.org/core/handbook/): Everything related to contributing to core.
 
 ---
 
-## Priority 3: Core Development & APIs
+# Developer Docs
 
-Core internals, APIs, and the development workflow.
+Focused documentation for modern WP development.
 
-* WordPress Core Trac: [https://core.trac.wordpress.org/](https://core.trac.wordpress.org/)
-* WordPress GitHub Mirror: [https://github.com/WordPress/wordpress-develop](https://github.com/WordPress/wordpress-develop)
-* Gutenberg Repository: [https://github.com/WordPress/gutenberg](https://github.com/WordPress/gutenberg)
-* Dev Notes (per release): [https://make.wordpress.org/core/tag/dev-notes/](https://make.wordpress.org/core/tag/dev-notes/)
-* WP_Query: [https://developer.wordpress.org/reference/classes/wp_query/](https://developer.wordpress.org/reference/classes/wp_query/)
-* $wpdb: [https://developer.wordpress.org/reference/classes/wpdb/](https://developer.wordpress.org/reference/classes/wpdb/)
-* register_post_type: [https://developer.wordpress.org/reference/functions/register_post_type/](https://developer.wordpress.org/reference/functions/register_post_type/)
-* register_taxonomy: [https://developer.wordpress.org/reference/functions/register_taxonomy/](https://developer.wordpress.org/reference/functions/register_taxonomy/)
+## Handbooks
 
----
+- [Block Editor Handbook](https://developer.wordpress.org/block-editor/): Canonical guide to building blocks and editor-related tools. Create the building blocks of WordPress.
+- [Theme Developer Handbook](https://developer.wordpress.org/themes/): Learn how to build your own theme (block themes + classic themes).
+- [Plugin Developer Handbook](https://developer.wordpress.org/plugins/): Dive into the world of plugin authoring. Covers plugin architecture, security, patterns.
+- [Common APIs](https://developer.wordpress.org/apis/): Explore APIs in the software and the ecosystem.
+- [Advanced Administration](https://developer.wordpress.org/advanced-administration): Dig into the technical side of site management.
+- [WordPress Playground](https://wordpress.github.io/wordpress-playground/): Reference for the browser-based WordPress runtime.
 
-## Priority 4: Security
+## API Reference
 
-Always treat security as part of development, not an afterthought.
-
-* Security Handbook: [https://developer.wordpress.org/apis/security/](https://developer.wordpress.org/apis/security/)
-* Data Validation: [https://developer.wordpress.org/apis/security/data-validation/](https://developer.wordpress.org/apis/security/data-validation/)
-* Escaping: [https://developer.wordpress.org/apis/security/escaping/](https://developer.wordpress.org/apis/security/escaping/)
-* Nonces: [https://developer.wordpress.org/apis/security/nonces/](https://developer.wordpress.org/apis/security/nonces/)
-* Hardening WordPress: [https://wordpress.org/support/article/hardening-wordpress/](https://wordpress.org/support/article/hardening-wordpress/)
+- [Code Reference](https://developer.wordpress.org/reference/): Read through the codebase documentation. Core functions, classes, hooks.
+- [REST API](https://developer.wordpress.org/rest-api/): Start creating your own apps with WordPress. Full REST docs with schema.
+- [Run WP-CLI Commands](https://developer.wordpress.org/cli/commands/): Accelerate your workflow managing WordPress. All CLI commands and flags.
+- [Coding Standards](https://developer.wordpress.org/coding-standards/): Official PHP, JS, and CSS standards. Ensure your code is up to date. 
 
 ---
 
-## Priority 5: Performance
+# Community & Unofficial Resources
 
-Guides for building efficient, minimal, fast WordPress experiences.
+[![Community](https://img.shields.io/badge/category-community-yellow)](.)
 
-* Transients API: [https://developer.wordpress.org/apis/handbook/transients/](https://developer.wordpress.org/apis/handbook/transients/)
-* Object Cache API: [https://developer.wordpress.org/reference/classes/wp_object_cache/](https://developer.wordpress.org/reference/classes/wp_object_cache/)
-* Script & Style Loading: [https://developer.wordpress.org/reference/functions/wp_enqueue_script/](https://developer.wordpress.org/reference/functions/wp_enqueue_script/)
-* theme.json Performance Notes: [https://developer.wordpress.org/block-editor/how-to-guides/themes/theme-json/](https://developer.wordpress.org/block-editor/how-to-guides/themes/theme-json/)
+- [Full Site Editing by Carolina Nymark](https://fullsiteediting.com): Education resource for learning about Full Site Editing powered by the modern block editor. Clean, accurate FSE tutorials and examples.
+- [WP Engine Developer Resources](https://wpengine.com/builders/): High-quality modern WP tutorials to build powerful WordPress and Headless websites. Modern front-end + headless + block development tutorials.
 
 ---
 
-## Priority 6: Coding Standards
+# Courses
 
-Consistency matters for longevity and collaboration.
+[![Courses](https://img.shields.io/badge/category-courses-purple)](.)
 
-* PHP Standards: [https://developer.wordpress.org/coding-standards/wordpress-coding-standards/php/](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/php/)
-* JavaScript Standards: [https://developer.wordpress.org/coding-standards/wordpress-coding-standards/javascript/](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/javascript/)
-* CSS Standards: [https://developer.wordpress.org/coding-standards/wordpress-coding-standards/css/](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/css/)
-* Inline Documentation Standards: [https://developer.wordpress.org/coding-standards/inline-documentation-standards/](https://developer.wordpress.org/coding-standards/inline-documentation-standards/)
+## Courses by Mike McAlister from [Olliewp](https://olliewp.com/)
+
+- [Theme Academy](https://olliewp.com/theme-academy/): Complete free video course for WordPress Block Theme Development.
+- [Block Academy](https://olliewp.com/block-academy/): Free video course for WordPress Block Development
+
+---
+
+# Development Tools & Environments
+
+[![Tools](https://img.shields.io/badge/category-dev%20tools-orange)](.)
+
+Everything related to building, running, and debugging WP projects. Best-in-class tools for local development, block building, debugging, testing.
+
+- [Create Block Theme](https://github.com/WordPress/create-block-theme): A WordPress plugin to create block themes.
+- [@wordpress/create-block](https://developer.wordpress.org/block-editor/reference-guides/packages/packages-create-block/): An official tool for scaffolding a WordPress plugin that registers a block. It is largely inspired by create-react-app.
+- [@wordpress/scripts](https://developer.wordpress.org/block-editor/reference-guides/packages/packages-scripts/): A collection of reusable scripts tailored for WordPress development. It is inspired by react-scripts and kcd-scripts.
+- [Query Monitor](https://querymonitor.com): Essential tool for debugging WordPress with a focus on presenting information in a useful manner.
+- [WordPress Playground](https://playground.wordpress.net): A browser-based instance for testing and developing WordPress projects. It is a platform that lets you run WordPress instantly on any device without a host.
+- [@wordpress/env](https://developer.wordpress.org/block-editor/reference-guides/packages/packages-env/): Official Docker-based dev environment for building and testing plugins and themes.
+- [WP-CLI](https://wp-cli.org): Command-line interface for managing WordPress installations.
+- [LocalWP](https://localwp.com/): Fast, beginner-friendly local environment.
+- [PHPUnit](https://phpunit.de/): A tool for testing PHP code.
+- [PHP CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer): A tool for checking coding standards in PHP code. You can find codesniffer rules to enforce WordPress coding conventions at [WordPress Coding Standards](https://github.com/WordPress/WordPress-Coding-Standards).
 
 ---
 
-## Tools & Repositories
+# Community Articles & Blogs
 
-Useful supporting resources.
+[![Blogs](https://img.shields.io/badge/category-blogs-brown)](.)
 
-* WPBlockDocs Repo: [https://github.com/house-of-giants/wp-block-docs](https://github.com/house-of-giants/wp-block-docs)
-* WordPress Core Mirror: [https://github.com/WordPress/wordpress-develop](https://github.com/WordPress/wordpress-develop)
-* Gutenberg Project: [https://github.com/WordPress/gutenberg](https://github.com/WordPress/gutenberg)
+High-signal, reliable community resources.
 
----
+- [Make WordPress Core](https://make.wordpress.org/core/): Official WordPress Core development blog. Official engineering updates and deep dives.
+- [Ryan Welcher](https://ryanwelcher.com): Practical tutorials, blogs and examples for modern WP dev.
+- [WP Engine Resource Center](https://wpengine.com/resources/): Comprehensive resources for WordPress development. Fint articles, ebooks, guides and more.
+- [CSS-Tricks WordPress Articles](https://css-tricks.com/?s=&post_tag=wordpress): Front-end focused WP articles.
