@@ -49,6 +49,8 @@ Primary sources maintained by the WordPress project: documentation, developer ha
 
 # Developer Docs
 
+[![Developer Docs](https://img.shields.io/badge/category-official%20developer%20docs-pink)](.)
+
 Focused documentation for modern WP development.
 
 ## Handbooks
