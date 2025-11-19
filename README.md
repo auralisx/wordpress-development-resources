@@ -97,7 +97,7 @@ Focused documentation for modern WP development.
 
 Everything related to building, running, and debugging WP projects. Best-in-class tools for local development, block building, debugging, testing.
 
-- [Create Block Theme](https://github.com/WordPress/create-block-theme): A WordPress plugin to create block themes.
+- [Create Block Theme](https://github.com/WordPress/create-block-theme): A WordPress plugin to create block themes. With FSE, using a boilerplate theme is not really necessary. You can use this plugin to create a block theme with ease that you can use as a starting point for your project. Block development is very actively moving forward and this plugin is a great way to get started.
 - [@wordpress/create-block](https://developer.wordpress.org/block-editor/reference-guides/packages/packages-create-block/): An official tool for scaffolding a WordPress plugin that registers a block. It is largely inspired by create-react-app.
 - [@wordpress/scripts](https://developer.wordpress.org/block-editor/reference-guides/packages/packages-scripts/): A collection of reusable scripts tailored for WordPress development. It is inspired by react-scripts and kcd-scripts.
 - [WordPress Playground](https://playground.wordpress.net): A browser-based instance for testing and developing WordPress projects. It is a platform that lets you run WordPress instantly on any device without a host.
@@ -120,6 +120,7 @@ High-signal, reliable community resources.
 
 - [Make WordPress Core](https://make.wordpress.org/core/): Official WordPress Core development blog. Official engineering updates and deep dives.
 - [Ryan Welcher](https://ryanwelcher.com): Practical tutorials, blogs and examples for modern WP dev.
+- [Brian Coords](https://www.briancoords.com/): Video series, newsletter, podcasts, tutorials from Brian Coords, developer advocate for WooCommerce.
 - [Nick Diego](https://nickdiego.com/posts/): Blogs and Projects related to WordPress. Nick is the creator of some cool modern WordPress plugins (icon block, block visibility etc).
 - [Misha Rudrastyh Digital](https://rudrastyh.com/blog): Programmatic development approaches with focus on WordPress.
 - [WP Engine Resource Center](https://wpengine.com/resources/): Comprehensive resources for WordPress development. Fint articles, ebooks, guides and more.
