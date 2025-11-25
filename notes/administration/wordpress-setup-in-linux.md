@@ -64,7 +64,7 @@ The mariadb-secure-installation command is used to secure the MariaDB installati
 ```
 sudo mariadb-secure-installation
 ```
-The command will interactively guide you through a number of recommended security measures. Then, run the following command to 
+The command will interactively guide you through a number of recommended security measures. Then, run the following command:
 
 ```
 sudo mariadb -u root -p
