@@ -37,7 +37,12 @@ sudo pacman -S redis php-redis
 ## 2. Start Services
 Here we can start the services we just installed. You can start them manually or configure them to start automatically on boot.
 
-To start the services, you can use the following command:
+Before enabling mariadb.service, you need to run the following command:
+```
+sudo mariadb-install-db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
+```
+
+Now, mariadb.service can be started or enabled. To start the services, you can use the following command:
 
 ```
 sudo systemctl start nginx php-fpm mariadb redis
@@ -53,3 +58,24 @@ sudo systemctl enable --now nginx php-fpm mariadb redis
 > To know how this works, you can read the wiki for systemd here: [systemd](https://wiki.archlinux.org/title/Systemd). Almost all linux distributions use systemd as their init system. It provides a powerful and flexible way to manage services and processes on a Linux system. With systemd, you can easily start, stop, restart, and monitor services, as well as manage dependencies between services and system resources.
 
 ## 3. Configure [MariaDB](https://wiki.archlinux.org/title/MariaDB)
+
+The mariadb-secure-installation command is used to secure the MariaDB installation by setting a root password, removing anonymous users, disabling remote root login, and removing the test database. It is recommended to run this command after installing MariaDB to improve the initial security of MariaDB installation.
+
+```
+sudo mariadb-secure-installation
+```
+The command will interactively guide you through a number of recommended security measures. Then, run the following command to 
+
+```
+sudo mariadb -u root -p
+```
+You will be asked for your MariaDB root password. Then, create a new database and user for WordPress:
+
+```
+MariaDB> CREATE DATABASE wordpress;
+MariaDB> GRANT ALL PRIVILEGES ON wordpress.* TO "wp-user"@"localhost" IDENTIFIED BY "choose_db_password";
+MariaDB> FLUSH PRIVILEGES;
+MariaDB> EXIT
+```
+> [!NOTE]
+> wordpress is your Database Name and wp-user is your User Name. You can change them if you wish. Also replace choose_db_password with your new Password for this database. You will be asked for these values along with localhost in the next section.
