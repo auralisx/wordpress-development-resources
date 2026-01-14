@@ -79,6 +79,8 @@ Focused documentation for modern WP development.
 
 - [Full Site Editing by Carolina Nymark](https://fullsiteediting.com): Education resource for learning about Full Site Editing powered by the modern block editor. Clean, accurate FSE tutorials and examples.
 - [WP Engine Developer Resources](https://wpengine.com/builders/): High-quality modern WP tutorials to build powerful WordPress and Headless websites. Modern front-end + headless + block development tutorials.
+- [10up Engineering](https://10up.github.io/Engineering-Best-Practices/): Best practices for WordPress development by 10up, a well versed company specializing in WordPress enterprise solutions.
+
 
 ---
 
@@ -105,12 +107,15 @@ Everything related to building, running, and debugging WP projects. Best-in-clas
 - [WordPress Playground](https://playground.wordpress.net): A browser-based instance for testing and developing WordPress projects. It is a platform that lets you run WordPress instantly on any device without a host.
 - [@wordpress/env](https://developer.wordpress.org/block-editor/reference-guides/packages/packages-env/): Official Docker-based dev environment for building and testing plugins and themes.
 - [WP-CLI](https://wp-cli.org): Command-line interface for managing WordPress installations.
+- [Telex](https://telex.automattic.ai): A natural language WordPress block builder created by Automattic AI Labs. (Flagged as experimental for now)
+
 - [WordPress Studio](https://developer.wordpress.com/studio/): free, open-source app to install and manage multiple WordPress sites locally.
 - [LocalWP](https://localwp.com/): Fast, beginner-friendly local environment.
 - [Instant WordPress](https://instantwp.com/): free, standalone, portable WordPress development environment.
 - [Query Monitor](https://querymonitor.com): Essential tool for debugging WordPress with a focus on presenting information in a useful manner.
 - [PHPUnit](https://phpunit.de/): A tool for testing PHP code.
 - [PHP CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer): A tool for checking coding standards in PHP code. You can find codesniffer rules to enforce WordPress coding conventions at [WordPress Coding Standards](https://github.com/WordPress/WordPress-Coding-Standards).
+- [GenerateWP](https://generatewp.com/): A easy to use tool for generating WordPress code snippets that follow WordPress coding conventions.
 
 ---
 # Guides
