@@ -101,7 +101,7 @@ date.timezone = "Asia/Kathmandu"
 
 memory_limit = 256M
 expose_php=off
-disable_functions = exec,passthru,shell_exec,system,proc_open,popen,parse_ini_file,show_source
+disable_functions = exec,passthru,shell_exec,system,popen,parse_ini_file,show_source
 session.use_strict_mode = 1
 allow_url_fopen = Off
 
