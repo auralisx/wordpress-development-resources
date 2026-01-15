@@ -26,6 +26,8 @@ Built for developers working in the modern block-based WordPress ecosystem.
 
 6. [Community Articles & Blogs](#community-articles--blogs)
 
+7. [Others](#others)
+
 ---
 
 # Official Resources
@@ -140,3 +142,17 @@ High-signal, reliable community resources.
 - [Nick Diego](https://nickdiego.com/posts/): Blogs and Projects related to WordPress. Nick is the creator of some cool modern WordPress plugins (icon block, block visibility etc).
 - [Misha Rudrastyh Digital](https://rudrastyh.com/blog): Programmatic development approaches with focus on WordPress.
 - [WP Engine Resource Center](https://wpengine.com/resources/): Comprehensive resources for WordPress development. Fint articles, ebooks, guides and more.
+
+# Others
+
+[!Other Resources](https://img.shields.io/badge/category-others-brown)
+
+Other resources that are not specific to WordPress development but are still useful for developers:
+
+- [Design Dev](https://design.dev): A collection of design resources for developers.
+- [CSS-Tricks](https://css-tricks.com): A website dedicated to CSS and web design.
+- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web): Mozilla's documentation for web technologies.
+- [Realtime Colors](https://realtimecolors.com): A website that provides real-time color schemes and font customization with live preview.
+- [List of awesome resources for Web Developers and Designers](https://github.com/shatlyk1011/my-best-resources): A curated set of design resources, component libraries, stock images, and tools to simplify workflows for frontend developers and designers.
+- [Fontmixer](https://fontmixer.app): Try out the best Google Fonts combinations for your next project.
+- [Sajid's UI color tool](https://iamsajid.com/ui-colors/): Cool color palette generator. It also contains some other tools that are very interesting.
