@@ -122,7 +122,7 @@ Everything related to building, running, and debugging WP projects. Best-in-clas
 ---
 # Guides
 
-[![WordPress Guides](https://img.shields.io/badge/category-blogs-brown)](.)
+[![WordPress Guides](https://img.shields.io/badge/category-guides-blue)](.)
 
 Guide and Blogs for specific topics
 
@@ -145,7 +145,7 @@ High-signal, reliable community resources.
 
 # Others
 
-[!Other Resources](https://img.shields.io/badge/category-others-brown)
+[![Other Resources]](https://img.shields.io/badge/category-others-magenta)](.)
 
 Other resources that are not specific to WordPress development but are still useful for developers:
 
