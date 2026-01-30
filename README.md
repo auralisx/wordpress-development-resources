@@ -118,6 +118,7 @@ Everything related to building, running, and debugging WP projects. Best-in-clas
 - [PHPUnit](https://phpunit.de/): A tool for testing PHP code.
 - [PHP CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer): A tool for checking coding standards in PHP code. You can find codesniffer rules to enforce WordPress coding conventions at [WordPress Coding Standards](https://github.com/WordPress/WordPress-Coding-Standards).
 - [GenerateWP](https://generatewp.com/): A easy to use tool for generating WordPress code snippets that follow WordPress coding conventions.
+- [WP Rig](https://wprig.io): A Progressive WordPress Theme Development Framework.
 
 ---
 # Guides
